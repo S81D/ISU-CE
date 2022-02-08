@@ -16,5 +16,7 @@ From functional tests ran using the femb python setup, we can evaluate output pa
 For a given functional test, there are 4 ASICs on the board, so this .list data comes in a 64 row, 64 channel format. Each ASIC has 16 channels (the first is denoted channel 0). The data can be sliced into individual ASIC .dat files, then read, loaded, and analyzed into the (Mean, RMS, Gain RT Cryocycle - Single ASIC plots.ipynb) jupyter notebook. This code analyzes each ASIC's Pedestal RMS and Mean, and Gain data by plotting each parameter as a 3-subplot figure. Very useful in analyzing the difference in the ASICs as a function of cryocycle. See code for details. The other jupyter notebook for LN2 functional tests (CT functional tests) is included with the same tag, but with CT. It is structured and formatted almost identically, with a few minor differences (like there is not CT[0] baseline tests). 
 >
 In addition to individual ASIC information, we can analyze the set of N chips as a whole, to see if their Pedestal Mean, RMS, and Gain distributions change as a functional of cryocycles. The code (RT RMS, Mean, Gain Histograms.ipynb) plots the histograms, as well as performs a Gaussian-style statistical analysis (CT included).
+>
+*** Upload scripts and .C files for reading and analyzing the .root files ***
 ___
 
