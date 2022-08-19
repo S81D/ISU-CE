@@ -3,3 +3,5 @@ Cold Electronics Testing for the DUNE experiment at Iowa State University. Speci
 
 _____
 
+The Functional Performance Analysis Folder contains both the standard femb software parameters (RMS, Mean, Gain, and ENC) as well as expanded parameters like Linearity and Pulse Characteristics. The code found in these folders were developed to analyze edited .list and .dat files created directly by the femb testing software. An example of the edited files for individual ASICs are found in the folders.
+_____
