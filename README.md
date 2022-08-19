@@ -3,7 +3,7 @@
 
 _____
 
-The Functional Performance Analysis Folder contains both the standard femb software parameters (RMS, Mean, Gain, and ENC) as well as expanded parameters like Linearity and Pulse Characteristics. The code found in these folders were developed to analyze edited .list and .dat files created directly by the femb testing software. An example of the edited files for individual ASICs are found in the folders.
+The Functional Performance Analysis Folder contains both the standard femb software parameters (RMS, Mean, Gain, and ENC) as well as expanded parameters like Linearity and Pulse Characteristics. The code found in these folders were developed to analyze edited .list and .dat files created directly by the femb testing software. An example of the edited files for individual ASICs are found in the folders. Also, a description of the code regarding each functional parameter (noise, baseline, linearity, pulse characteristics) and how those functional parameters were extracted are provided as a word document.
 _____
 
 The SAM Analysis folder contains all code infrastructure for the correlation analysis. The correlation analysis quantifies and identifies anti-correlation regions observed using SAM. A full manual/documentation is provided detailing how the code works and the experimental procedures used for collecting acoustic data.
