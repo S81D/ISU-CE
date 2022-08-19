@@ -11,3 +11,6 @@ _____
 
 The conclusion of functional testing and SAM analysis results are summarized in the documents found here: https://iastate.box.com/s/54cgno7zj62wg4i6efrmid69h1zy1gzt. Results on the anti-correlation regions observed during stress testing of the P3 DUNE LArASICs can be found attached as a PDF document in the link, as well as summarized in a powerpoint format.
 _____
+
+The codes and scripts used for extracting the .ROOT files created using the femb software for QC testing are provided under the Functional Performance Analysis folder, as well as a description on how to run the scripts.
+_____
