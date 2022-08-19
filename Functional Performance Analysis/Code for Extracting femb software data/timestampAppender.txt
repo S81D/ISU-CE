@@ -1,0 +1,5 @@
+Run this command in terminal after creating your list of timestamps and timepath file pathways (after running GetFileNames.sh)
+
+sed -i -e 's/^/\/gain_enc_sequence-g2s2b0-0000\//' timePathsTEST.list
+
+This command will add on the additional folder you need to the string
