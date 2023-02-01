@@ -3,7 +3,7 @@
 
 _____
 
-The Functional Performance Analysis Folder contains both the standard femb software parameters (RMS, Mean, Gain, and ENC) as well as expanded parameters like Linearity and Pulse Characteristics. The code found in these folders were developed to analyze edited .list and .dat files created directly by the femb testing software developed for the P3 LArASICs for ProtoDUNE (found here, femb_python: https://github.com/DUNE/femb_python). An example of the edited files for individual ASICs are found in the folders.
+The Functional Analysis Folder contains both the standard femb software parameters (RMS, Mean, Gain, and ENC) as well as expanded parameters like Linearity and Pulse Characteristics. The code found in these folders were developed to analyze edited .list and .dat files created directly by the femb testing software developed for the P3 LArASICs for ProtoDUNE (found here, femb_python: https://github.com/DUNE/femb_python). An example of the edited files for individual ASICs are found in the folders.
 _____
 
 The SAM Analysis folder contains all code infrastructure for the correlation analysis. The correlation analysis quantifies and identifies anti-correlation regions observed using SAM.
